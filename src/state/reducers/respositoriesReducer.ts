@@ -1,13 +1,9 @@
+import { Action } from "../actions";
+
 interface RepositoriesState {
   loading: boolean;
   error: string | null;
   data: string[];
-}
-
-enum ActionType {
-  SEARCH_REPOSITORIES = "SEARCH_REPOSITORIES",
-  SEARCH_REPOSITORIES_SUCCESS = "SEARCH_REPOSITORIES_SUCCESS",
-  SEARCH_REPOSITORIES_ERROR = "SEARCH_REPOSITORIES_ERROR",
 }
 
 const reducer = (
