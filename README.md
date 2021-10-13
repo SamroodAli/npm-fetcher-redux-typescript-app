@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+# Npm fetch typescript redux application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
