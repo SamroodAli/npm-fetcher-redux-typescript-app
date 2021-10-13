@@ -12,7 +12,6 @@ interface SearchRepositoriesSuccessAction {
   type: "search_repositories_success";
   payload: string[];
 }
-
 interface SearchRepositoriesErrorAction {
   type: "search_repositories_error";
   payload: string;
