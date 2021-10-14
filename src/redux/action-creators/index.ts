@@ -6,7 +6,6 @@ import { Action } from "../actions";
 export const searchRepositoris = (searchTerm: string) => {
   return async (dispatch: Dispatch<Action>) => {
     dispatch({ type: ActionTypes.SEARCH_REPOSITORIES });
-
     try {
       const { data } = await axios.get(
         "https://registry.npmjs.org/-/v1/search",
