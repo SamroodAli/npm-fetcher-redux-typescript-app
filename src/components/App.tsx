@@ -1,4 +1,4 @@
-import { store } from "../redux";
+import { store } from "../state";
 import { Provider } from "react-redux";
 import RepositoriesList from "./RepositoresList";
 
